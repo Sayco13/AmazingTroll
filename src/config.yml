@@ -1,0 +1,127 @@
+#Prefix and others#
+prefix: "&7[&a&lAmazing&c&lTroll&7] &r"
+
+#Options#
+GUI:
+    Selector: "&8&lSelect a player to Troll"
+    Troll: "&a&lAmazing&c&lTroll"
+    Morph: "&a&lSelect a Morph"
+
+Selector-Options:
+    1Information: "&7Click here to troll &3&l%player%"
+    Information: "&cInformation of Player"
+    Name: "&eName: &7%player%"
+    Gamemode: "&eGamemode: &7"
+    Error: "&cThe Player %player not found :'C"
+    
+#Trolls#
+Troll-FakeOP:
+    name-inventory: "&aFake OP"
+    messages:
+        fakeOPMessage1: "&7&oCONSOLE: You are now administrator"
+        fakeOPMessage2: "&eYou are now administrator"
+        fakeOPMessageSend: "&8Troll de OP realizado correctamente."
+Troll-Spam:
+    name-inventory: "&bTroll Spam"
+    lore-inventory: "&cWARNING: May cause flashing lights."
+    messages:
+        TrollSpamMessageSend: "&8Sending..."        
+Troll-Ban:
+    name-inventory: "&aFake Ban"
+    messages:
+        trollBanMessage: "&cYou have been banned for hacking"
+        trollBanMessageSend: "&8Successful fake ban."
+Troll-TnT:
+    name-inventory: "&3TNT and Co. Troll"
+    lore-inventory: "&cWARNING: Destroys blocks in protected places."
+    messages:
+        tntTrollMessageSend: "&8Successful TNT troll."
+Troll-BedrockCage:
+    name-inventory: "&7Bedrock Cage"
+    lore-inventory: "&cWARNING: Destroys blocks in protected places."
+    messages:
+        bedrockCageMessageSend: "&8Successful bedrock cage troll."
+Troll-ExtremeTroll:
+    name-inventory: "&c&lExtreme Troll"
+    messages:
+        extremeTrollMessageSend: "&8Successful extreme troll."
+Troll-Lava:
+    name-inventory: "&6Lava Troll"
+    lore-inventory: "&cWARNING: Destroys blocks in protected places."
+    messages:
+        lavaTrollMessageSend: "&8Successful lava troll."
+Troll-Facepalm:
+    name-inventory: "&eFacepalm"
+    messages:
+        FacepalmMessageSend: "&8Successful Facepalm."
+Troll-Launch:
+    name-inventory: "&bLaunch Troll"
+    messages:
+        launchMessageSend: "&8Successful launch."
+Troll-Freeze:
+    name-inventory: "&bFreeze Troll"
+    lore-inventory: "&cNOTE: Press again to un-freeze"
+    messages:
+        frozenMessageSend: "&8Frozen!"
+        unFrozenMessageSend: "&8Un-Frozen!"
+Troll-Smite:
+    name-inventory: "&5Smite Troll"
+    messages:
+        smiteTrollMessageSend: "&8Successful Smite troll."
+Troll-Burn:
+    name-inventory: "&cBurn Troll"
+    messages: 
+        burnTrollMessageSend: "&8Successful Burn troll."
+Troll-HidePlayers:
+   name-inventory: "&aHide/show players"
+   messages:
+       hidePlayersMessageSend: "&8Successful hide players to player."
+       showPlayersMessageSend: "&8Successful show players to player."
+Troll-ControlPlayer:
+    name-inventory: "&aControl player"
+    messages:
+       controlPlayerMessageSend: "&8Successful control mode with the player."
+Troll-Enderchest:
+    name-inventory: "&cView enderchest"
+Troll-Inventory:
+    name-inventory: "&cView player inventory"
+Troll-BacktoBody:
+    name-inventory: "&aBack to your body"
+Troll-Matrix:
+    name-inventory: "&aMatrix Troll"
+    messages:
+        matrixMessageSend: "&8Matrix show to player"
+Troll-Morphs:
+    name-inventory: "&aMorphs Menu"
+        
+#Morphs#
+Morph-Chicken:
+    name: "&aDisguise in a chicken"
+    messages:
+        DisguiseMessage: "&8The player %player% now disguise in a Chicken"
+Morph-Cow: 
+    name: "&aDisguise in a Cow" 
+    messages:
+        DisguiseMessage: "&8The player %player% now disguise in a Cow"
+Morph-Pig: 
+    name: "&aDisguise in a Pig"
+    messages:
+        DisguiseMessage: "&8The player %player% now disguise in a Pig"
+Morph-Creeper: 
+    name: "&aDisguise in a Creeper"
+    messages:
+        DisguiseMessage: "&8The player %player% now disguise in a Creeper"
+Morph-Bat: 
+    name: "&aDisguise in a Bat"
+    messages:
+        DisguiseMessage: "&8The player %player% now disguise in a Bat"        
+
+#Commands#
+consoleNoRunCommand: "&cThe console cannot run this command."
+no-permission: "&cYou do not have permission."
+no-command-use: "&cError on the comand"
+no-player-online: "&cPlayer %player% not now online"
+too-many-arguments: "&cToo many arguments"
+
+#Permissions#
+permission-troll: "atroll.open"

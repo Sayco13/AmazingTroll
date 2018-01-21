@@ -1,0 +1,12 @@
+name: AmazingTroll
+main: io.github.Sayco13.atroll.Main
+version: 1.1
+depend: [ProtocolLib, LibsDisguises, OpenInv]
+commands:
+    troll:
+        usage: /<command>
+        description: Open the selector menu.
+permissions:
+    atroll.open:
+        description: Have the ability to open the troll GUI.
+        description: op
